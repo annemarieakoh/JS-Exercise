@@ -10,12 +10,12 @@
     </head>
 <h1>Student Anne-Marie's Schedule</h1>
 <ul>
-  <li>PEP111 Mechanics</li>
-  <li>CS115 Intro to Computer Science</li>
-  <li>CAL103 Writing & Communications Collqm</li>
-  <li>MA121 Differential Calculus</li>
-  <li>DEAN110 Freshman Quiz</li>
-  <li>CS146 Intro to Web Programming & Web Development</li>
+  <li><u>PEP111</u> Mechanics</li>
+  <li><u>CS115</u> Intro to Computer Science</li>
+  <li><u>CAL103</u> Writing & Communications Collqm</li>
+  <li><u>MA121</u> Differential Calculus</li>
+  <li><u>DEAN110</u> Freshman Quiz</li>
+  <li><u>CS146</u> Intro to Web Programming & Web Development</li>
 </ul>
 <body>    
 <table>
