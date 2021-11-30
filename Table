@@ -2,8 +2,7 @@
 <html>
 
     <head>
-        <title>Student Anne-Marie's Schedule</title>
-        <link rel="stylesheet" type="text/css" href="table css.css" media="screen and (min-width:769px)">
+        <link rel="stylesheet" type="text/css" href="TableStyle.css" media="screen and (min-width:769px)">
     </head>
 <h1>Student Anne-Marie's Schedule</h1>
 <ul>
