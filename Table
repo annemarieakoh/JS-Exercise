@@ -9,6 +9,14 @@
         <link rel="stylesheet" type="text/css" href="main.css" media="screen and (min-width:769px)">
     </head>
 <h1>Student Anne-Marie's Schedule</h1>
+<ul>
+  <li>PEP111 Mechanics</li>
+  <li>CS115 Intro to Computer Science</li>
+  <li>CAL103 Writing & Communications Collqm</li>
+  <li>MA121 Differential Calculus</li>
+  <li>DEAN110 Freshman Quiz</li>
+  <li>CS146 Intro to Web Programming & Web Development</li>
+</ul>
 <body>    
 <table>
   <tr>
