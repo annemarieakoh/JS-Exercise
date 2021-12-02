@@ -12,7 +12,7 @@
   <input type="checkbox" id="course2" name="course2" value="CS115">
   <label for="course2"> <u>CS115</u> Intro to Computer Science</label><br>
   <input type="checkbox" id="course3" name="course3" value="CAL103">
-  <label for="course3"> <u>CAL103</u> Writing & Communications Collqm</label><br><br>
+  <label for="course3"> <u>CAL103</u> Writing & Communications Collqm</label><br>
   <input type="checkbox" id="course4" name="course4" value="MA121">
   <label for="course4"> <u>MA121</u> Differential Calculus</label><br>
   <input type="checkbox" id="course5" name="course5" value="DEAN110">
