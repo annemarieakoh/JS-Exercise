@@ -10,17 +10,17 @@
     <body>
         <h1>Student Anne-Marie's Schedule</h1>
         <form action="/action_page.php">
-            <input type="checkbox" id="course1" name="course1" value="PEP111" onclick="displayCourse()">
+            <input type="checkbox" id="course1" name="course1" value="PEP111" onclick="displayCourseMechanics()">
             <label for="course1"> <u>PEP111</u> Mechanics</label><br>
-            <input type="checkbox" id="course2" name="course2" value="CS115">
+            <input type="checkbox" id="course2" name="course2" value="CS115" onclick="displayCourseComputerScience()">
             <label for="course2"> <u>CS115</u> Intro to Computer Science</label><br>
-            <input type="checkbox" id="course3" name="course3" value="CAL103">
+            <input type="checkbox" id="course3" name="course3" value="CAL103" onclick="displayCourseEnglish()">
             <label for="course3"> <u>CAL103</u> Writing & Communications Collqm</label><br>
-            <input type="checkbox" id="course4" name="course4" value="MA121">
+            <input type="checkbox" id="course4" name="course4" value="MA121" onclick="displayCourseMaths()">
             <label for="course4"> <u>MA121</u> Differential Calculus</label><br>
-            <input type="checkbox" id="course5" name="course5" value="DEAN110">
+            <input type="checkbox" id="course5" name="course5" value="DEAN110" onclick="displayCourseFreshmanQuiz()">
             <label for="course5"> <u>DEAN110</u> Freshman Quiz</label><br>
-            <input type="checkbox" id="course6" name="course6" value="CS146">
+            <input type="checkbox" id="course6" name="course6" value="CS146" onclick="displayCourseWebDev()">
             <label for="course6"> <u>CS1463</u> Intro to Web Programming & Web Development</label><br><br>
         </form>    
         <table>
@@ -37,7 +37,7 @@
                 <td></td>
                 <td><p class="mechanics">PEP 111</p></td>
                 <td></td>
-                <td>CS 115</td>
+                <td><p class="computerscience">CS 115</p></td>
                 <td></td>
             </tr>
             <tr>
@@ -50,91 +50,91 @@
             </tr>
             <tr>
                 <td>10am</td>
-                <td>CS 115</td>
+                <td><p class="computerscience">CS 115</p></td>
                 <td> </td>
-                <td>CS 115</td>
+                <td><p class="computerscience">CS 115</p></td>
                 <td> </td>
-                <td>CS 115</td>
+                <td><p class="computerscience">CS 115</p></td>
             </tr>
             <tr>
                 <td>11am</td>
-                <td>CAL 103</td>
-                <td> </td>
-                <td>CAL 103</td>
-                <td> </td>
-                <td>CAL 103</td>
+                <td><p class="english">CAL 103</p></td>
+                <td></td>
+                <td><p class="english">CAL 103</p></td>
+                <td></td>
+                <td><p class="english">CAL 103</p></td>
             </tr>
             <tr>
                 <td>12pm</td>
-                <td>  </td>
-                <td>MA 121</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td></td>
+                <td><p class="maths">MA 121</p></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>1pm</td>
-                <td>MA 121</td>
-                <td> </td>
-                <td>MA 121</td>
-                <td> </td>
-                <td>MA 121</td>
+                <td><p class="maths">MA 121</p></td>
+                <td></td>
+                <td><p class="maths">MA 121</p></td>
+                <td></td>
+                <td><p class="maths">MA 121</p></td>
             </tr>
             <tr>
                 <td>2pm</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>3pm</td>
-                <td> </td>
-                <td>CS 146</td>
                 <td></td>
-                <td>CS 146</td>
+                <td><p class="webdev">CS 146</p></td>
+                <td></td>
+                <td><p class="webdev">CS 146</p></td>
                 <td></td>
             </tr>
             <tr>
                 <td>4pm</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
                 <td>5pm</td>
-                <td>DEAN 110</td>
-                <td> </td>
-                <td> </td>
-                <td>DEAN 110</td>
-                <td> </td>
+                <td><p class="freshmanquiz">DEAN 110<p/></td>
+                <td></td>
+                <td></td>
+                <td><p class="freshmanquiz">DEAN 110<p/></td>
+                <td></td>
             </tr>
             <tr>
                 <td>6pm</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>7pm</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td>8pm</td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
-                <td> </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
         </table>
     </body>
