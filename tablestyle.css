@@ -22,5 +22,5 @@ tr {
   width: 50px;
 }
 #twohrmechanics{
-  height: 50px;
+  rowspan: 2;
 }
