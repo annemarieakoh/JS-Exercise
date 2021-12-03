@@ -21,3 +21,6 @@ tr {
   height: 25px;
   width: 50px;
 }
+#tdmechanics{
+  rowspan: 2;
+}
