@@ -8,7 +8,7 @@ function displayCourseMechanics(){
     $(text).hide();
   }
 }
-
+/*
 function changeColourMechanics(){
   var checkbox = document.getElementById("course1");
   var tableDataBackground = document.getElementsByClassName("mechanics").style.backgroundColor;
@@ -21,7 +21,7 @@ function changeColourMechanics(){
     $(tableDataBackground).hide();
   }
 }
-
+*/
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
   var text = document.getElementsByClassName("computerscience");
