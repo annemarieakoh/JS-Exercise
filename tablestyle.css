@@ -4,20 +4,19 @@ table{
 }
 th {
   border:1px solid black;
-  padding: 5px;
+  padding: 2px;
   height: 25px;
   width: 50px;
 }
 td {
   border:1px solid black;
-  padding: 5px;
+  padding: 2px;
   height: 25px;
   width: 50px;
-  colspan: 5;
 }
 tr {
   border:1px solid black;
-  padding: 5px;
+  padding: 2px;
   height: 25px;
   width: 50px;
 }
