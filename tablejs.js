@@ -13,12 +13,12 @@ function changeColourMechanics(){
   var checkbox = document.getElementById("course1");
   var tableDataBackground = document.getElementsByClassName("mechanics");
   var colour = document.getElementById("course1background").value;
-  let tableDataBackground.body.style.backgroundColor = colour;
+  let document.body.style.backgroundColor = colour;
   if (checkbox.checked == true){
-    $(tableDataBackground).show();
+    $(document.body.style.backgroundColor).show();
   }
   else{
-    $(tableDataBackground).hide();
+    $(document.body.style.backgroundColor).hide();
   }
 }
 
