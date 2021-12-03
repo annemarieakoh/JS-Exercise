@@ -7,6 +7,11 @@ function displayCourseMechanics(){
   else{
     $(text).hide();
   }
+  function changeColourMechanics(){
+    var tableDataBackground = document.getElementsByClassName("mechanics")'
+    let colour = document.getElementById("course1background").value;
+    tableDataBackground.body.style.backgroundColor = colour
+  }
 }
 
 function displayCourseComputerScience(){
