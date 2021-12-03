@@ -19,7 +19,7 @@ td {
 tr {
   border:1px solid black;
   cellspacing: 0;
-  cellpadding: 25;
+  cellpadding: 100;
   height: 50;
   width: 25;
 }
