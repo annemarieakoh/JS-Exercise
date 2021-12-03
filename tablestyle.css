@@ -4,23 +4,20 @@ table{
 }
 th {
   border:1px solid black;
-  spacing: 5px;
-  padding: 25px;
+  padding: 5px;
   height: 25px;
   width: 50px;
 }
 td {
   border:1px solid black;
-  spacing: 5px;
-  padding: 25px;
+  padding: 5px;
   height: 25px;
   width: 50px;
   colspan: 1;
 }
 tr {
   border:1px solid black;
-  spacing: 5px;
-  padding: 25px;
+  padding: 5px;
   height: 25px;
   width: 50px;
 }
