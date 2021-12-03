@@ -14,6 +14,7 @@ td {
   cellpadding: 25;
   height: 50;
   width: 25;
+  rowspan: 1;
 }
 tr {
   border:1px solid black;
