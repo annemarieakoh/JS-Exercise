@@ -1,6 +1,24 @@
-table, th, td, tr {
+table{
+  border:1px solid black;
+}
+th {
   border:1px solid black;
   cellspacing: 0;
+  cellpadding: 25;
+  height: 50;
+  width: 25;
+}
+td {
+  border:1px solid black;
+  cellspacing: 0;
+  cellpadding: 25;
+  height: 50;
+  width: 25;
+}
+tr {
+  border:1px solid black;
+  cellspacing: 0;
+  cellpadding: 25;
   height: 50;
   width: 25;
 }
