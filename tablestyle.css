@@ -11,3 +11,6 @@ p {
   height: 0px;
   width: 75px;
 }
+#time {
+  text-align: right;
+}
