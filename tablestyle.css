@@ -1,25 +1,26 @@
 table{
+  width: 400px;
   border:1px solid black;
 }
 th {
   border:1px solid black;
   cellspacing: 0;
   cellpadding: 25;
-  height: 50;
-  width: 25;
+  height: 800px;
+  width: 400px;
 }
 td {
   border:1px solid black;
   cellspacing: 0;
   cellpadding: 25;
-  height: 50;
-  width: 25;
+  height: 800px;
+  width: 400px;
   colspan: 1;
 }
 tr {
   border:1px solid black;
   cellspacing: 0;
   cellpadding: 100;
-  height: 50;
-  width: 25;
+  height: 800px;
+  width: 400px;
 }
