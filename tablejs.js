@@ -12,9 +12,9 @@ function displayCourseMechanics(){
 function changeColourMechanics(){
    var tableDataBackground = document.getElementsByClassName("mechanics")'
    let colour = document.getElementById("course1background").value;
-   tableDataBackground.body.style.backgroundColor = colour;
+   document.tableDataBackground.body.style.backgroundColor = colour;
   }
-
+}
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
   var text = document.getElementsByClassName("computerscience");
