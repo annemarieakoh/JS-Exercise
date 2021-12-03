@@ -15,10 +15,10 @@ function changeColourMechanics(){
   var colour = document.getElementById("course1background").value;
   let document.body.style.backgroundColor = colour;
   if (checkbox.checked == true){
-    $(document.body.style.backgroundColor).show();
+    tableDataBackground.value = colour;
   }
   else{
-    $(document.body.style.backgroundColor).hide();
+    tableDataBackground.value = #FFFFFF
   }
 }
 
