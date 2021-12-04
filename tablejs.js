@@ -12,10 +12,12 @@ function hideAllExtra(){
   var extramechanics = document.getElementsByClassName("extracellmechanics");
   var extracomputerscience = document.getElementsByClassName("extracellcomputerscience");
   var extraenglish = document.getElementsByClassName("extracellenglish");
+  var extramaths = document.getElementsByClassName("extracellmaths");
   var extrawebdev = document.getElementsByClassName("extracellwebdev");
   $(extramechanics).hide();
   $(extracomputerscience).hide();
   $(extraenglish).hide();
+  $(extramaths).hide();
   $(extrawebdev).hide();
 }
 function displayCourseMechanics(){
@@ -63,11 +65,14 @@ function displayCourseEnglish(){
 function displayCourseMaths(){
   var checkbox = document.getElementById("course4");
   var text = document.getElementsByClassName("maths");
+  var extra = document.getElementsByClassName("extracellmaths");
   if (checkbox.checked == true){
     $(text).show();
+    $(extra).hide();
   }
   else{
     $(text).hide();
+    $(extra).show();
   }
 }
 
