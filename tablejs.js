@@ -3,14 +3,8 @@ function checkWebDev(){
   var text = document.getElementsByClassName("webdev");
   var extra = document.getElementsByClassName("extracellwebdev");
   let checkbox.checked == true;
-  if (checkbox.checked == true){
     $(text).show();
     $(extra).hide();
-  }
-  else{
-    $(text).hide();
-    $(extra).show();
-  }
 }
 
 function displayCourseMechanics(){
