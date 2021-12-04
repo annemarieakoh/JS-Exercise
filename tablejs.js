@@ -33,7 +33,7 @@ function displayCourseComputerScience(){
   else{
     $(text).hide();
     $(extra).show();
-    $extramechanics).show();
+    $(extramechanics).show();
   }
 }
 
