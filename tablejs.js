@@ -1,3 +1,7 @@
+function checkAll(type){
+  type.checked == true
+}
+
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
