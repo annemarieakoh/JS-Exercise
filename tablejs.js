@@ -12,9 +12,7 @@ function hideAllExtra(){
   $(extrafreshmanquiz).hide();
   $(extrawebdev).hide();
 }
-function startWhite(){
-  var allCells = document.getElementsByTagName("td")
-  allCells.bgcolor = "#FFFFFF"
+
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
