@@ -4,13 +4,9 @@ table{
 }
 th, td, tr {
   border:1px solid black;
-  height: 32px;
-  width: 75px;
-}
-p {
-  height: 0px;
-  width: 75px;
+  height: 25px;
+  width: 50px;
 }
 #time {
-  text-align: center;
+  text-align: right;
 }
