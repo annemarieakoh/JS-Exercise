@@ -1,13 +1,3 @@
-/*
-function checkWebDev(){
-  var checkbox = document.getElementById("course6");
-  var text = document.getElementsByClassName("webdev");
-  var extra = document.getElementsByClassName("extracellwebdev");
-  let checkbox.checked == true;
-    $(text).show();
-    $(extra).hide();
-}
-*/
 function hideAllExtra(){
   var extramechanics = document.getElementsByClassName("extracellmechanics");
   var extracomputerscience = document.getElementsByClassName("extracellcomputerscience");
@@ -35,7 +25,12 @@ function displayCourseMechanics(){
     $(extra).show();
   }
 }
-
+function displayColourMechanics(){
+  var checkbox = document.getElementById("course1");
+  var background = document.getElementsByClassName("mechanics");
+  var colour = document.getElementById("course1background").value;
+  document.background.style.backgroundColor = colour;
+}
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
   var text = document.getElementsByClassName("computerscience");
