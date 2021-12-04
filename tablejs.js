@@ -20,11 +20,14 @@ function changeColourMechanics(){
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
   var text = document.getElementsByClassName("computerscience");
+  var extra = document.getElementsByClassName("extracell");
   if (checkbox.checked == true){
     $(text).show();
+    $(extra).hide();
   }
   else{
     $(text).hide();
+    $(extra).show();
   }
 }
 
