@@ -8,7 +8,17 @@ function displayCourseMechanics(){
     $(text).hide();
   }
 }
-
+function colourCheck(){
+  var checkbox = document.getElementsByTagName("input");
+  var backgrounds = document.getElementsByTagName("td").style.backgroundColor;
+  backgrounds = "red";
+  if(checkbox.checked == true){
+    $(backgrounds).show();
+  }
+  else{
+    $(backgrounds).hide();
+  }
+}
 function changeColourMechanics(){
   var checkbox = document.getElementById("course1");
   var tableDataBackground = document.getElementsByClassName("mechanicsdata").style.backgroundColor;
