@@ -28,7 +28,7 @@ function displayCourseMechanics(){
 function displayColourMechanics(){
   var backgrounds = document.getElementsByClassName("mechanics");
   var colour = document.getElementById("course1background").value;
-  backgrounds.style.backgroundColor = colour;
+  backgrounds.setAttribute("bgcolor","colour");
 }
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
