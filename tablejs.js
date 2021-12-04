@@ -3,11 +3,11 @@ function displayCourseMechanics(){
   var text = document.getElementsByClassName("mechanics");
   var extra = document.getElementsByClassName("extracell");
   if (checkbox.checked == true){
-    $(text).show() 
+    $(text).show(); 
     $(extra).hide();
   }
   else{
-    $(text).hide() 
+    $(text).hide(); 
     $(extra).show();
   }
 }
