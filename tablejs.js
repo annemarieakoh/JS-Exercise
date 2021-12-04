@@ -11,7 +11,7 @@ function displayCourseMechanics(){
 
 function changeColourMechanics(){
   var colour = document.getElementById("course1background").value;
-  document.getElementsByTagName("TR").style.backgroundColor = colour;
+  document.getElementsByClassName("mechanics").style.backgroundColor = colour;
 }
 
 function displayCourseComputerScience(){
