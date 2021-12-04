@@ -8,12 +8,12 @@ function displayCourseMechanics(){
     $(text).hide();
   }
 }
-/*
+
 function changeColourMechanics(){
   var checkbox = document.getElementById("course1");
-  var tableDataBackground = document.getElementsByClassName("mechanics").style.backgroundColor;
-  var colour = document.getElementById("course1background").value;
-  let tableDataBackground = colour;
+  var tableDataBackground = document.getElementsByClassName("mechanicsdata").style.backgroundColor;
+  let colour = document.getElementById("course1background").value;
+  tableDataBackground = colour;
   if (checkbox.checked == true){
     $(tableDataBackground).show();
   }
@@ -21,7 +21,7 @@ function changeColourMechanics(){
     $(tableDataBackground).hide();
   }
 }
-*/
+
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
   var text = document.getElementsByClassName("computerscience");
