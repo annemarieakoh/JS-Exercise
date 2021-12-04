@@ -42,7 +42,9 @@ function displayCourseComputerScience(){
     $(extra).show();
   }
 }
-
+function displayColourComputerScience(){
+  $('.computerscience').css("background-color", $("#course2background").val());
+}
 function displayCourseEnglish(){
   var checkbox = document.getElementById("course3");
   var text = document.getElementsByClassName("english");
@@ -56,7 +58,9 @@ function displayCourseEnglish(){
     $(extra).show();
   }
 }
-
+function displayColourEnglish(){
+  $('.english').css("background-color", $("#course3background").val());
+}
 function displayCourseMaths(){
   var checkbox = document.getElementById("course4");
   var text = document.getElementsByClassName("maths");
@@ -70,7 +74,9 @@ function displayCourseMaths(){
     $(extra).show();
   }
 }
-
+function displayColourMaths(){
+  $('.maths').css("background-color", $("#course4background").val());
+}
 function displayCourseFreshmanQuiz(){
   var checkbox = document.getElementById("course5");
   var text = document.getElementsByClassName("freshmanquiz");
@@ -84,7 +90,9 @@ function displayCourseFreshmanQuiz(){
     $(extra).show();
   }
 }
-
+function displayColourFreshmanQuiz(){
+  $('.freshmanquiz').css("background-color", $("#course5background").val());
+}
 function displayCourseWebDev(){
   var checkbox = document.getElementById("course6");
   var text = document.getElementsByClassName("webdev");
@@ -97,4 +105,7 @@ function displayCourseWebDev(){
     $(text).hide();
     $(extra).show();
   }
+}
+function displayColourWebDev(){
+  $('.webdev').css("background-color", $("#course6background").val());
 }
