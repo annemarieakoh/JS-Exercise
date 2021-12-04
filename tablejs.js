@@ -1,5 +1,5 @@
 function checkAll(){
-  document.getElementById("course6").checked == true;
+  document.onload.getElementById("course6").checked == true;
 }
 
 function displayCourseMechanics(){
