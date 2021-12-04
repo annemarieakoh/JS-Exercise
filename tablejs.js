@@ -67,7 +67,7 @@ function displayCourseFreshmanQuiz(){
 function displayCourseWebDev(){
   var checkbox = document.getElementById("course6");
   var text = document.getElementsByClassName("webdev");
-  var extra = document.getElementsByClassName("extracellcomputerscience");
+  var extra = document.getElementsByClassName("extracellwebdev");
   if (checkbox.checked == true){
     $(text).show();
     $(extra).hide();
