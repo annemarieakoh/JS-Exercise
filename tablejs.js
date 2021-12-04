@@ -10,8 +10,10 @@ function checkWebDev(){
 */
 function hideAllExtra(){
   var extramechanics = document.getElementsByClassName("extracellmechanics");
+  var extracomputerscience = document.getElementsByClassName("extracellcomputerscience");
   var extrawebdev = document.getElementsByClassName("extracellwebdev");
   $(extramechanics).hide();
+  $(extracomputerscience).hide();
   $(extrawebdev).hide();
 }
 function displayCourseMechanics(){
