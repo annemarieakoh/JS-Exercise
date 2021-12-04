@@ -8,6 +8,10 @@ function checkWebDev(){
     $(extra).hide();
 }
 */
+function hideAllExtra(){
+  var extra = document.getElementsByClassName("extracellwebdev");
+  $(extra).hide();
+}
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
