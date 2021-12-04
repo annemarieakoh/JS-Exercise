@@ -26,8 +26,8 @@ function displayCourseMechanics(){
   }
 }
 function displayColourMechanics(){
-  $(#choosebutton).click(function(){
-    $(.mechanics).css("background-color", $("#course1background").val());
+  $('#choosebutton').click(function(){
+    $('.mechanics').css("background-color", $("#course1background").val());
   });
 }
 function displayCourseComputerScience(){
