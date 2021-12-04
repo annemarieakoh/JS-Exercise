@@ -26,9 +26,9 @@ function displayCourseMechanics(){
   }
 }
 function displayColourMechanics(){
-  var backgrounds = document.getElementsByClassName("mechanics");
-  var colour = document.getElementById("course1background").value;
-  $(backgrounds).css("background", "colour");
+  $(#choosebutton).click(function(){
+    $(.mechanics).css("background-color", $("#course1background").val());
+  }
 }
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
