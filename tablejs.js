@@ -11,9 +11,11 @@ function checkWebDev(){
 function hideAllExtra(){
   var extramechanics = document.getElementsByClassName("extracellmechanics");
   var extracomputerscience = document.getElementsByClassName("extracellcomputerscience");
+  var extraenglish = document.getElementsByClassName("extracellenglish");
   var extrawebdev = document.getElementsByClassName("extracellwebdev");
   $(extramechanics).hide();
   $(extracomputerscience).hide();
+  $(extraenglish).hide();
   $(extrawebdev).hide();
 }
 function displayCourseMechanics(){
@@ -28,11 +30,6 @@ function displayCourseMechanics(){
     $(text).hide(); 
     $(extra).show();
   }
-}
-
-function changeColourMechanics(){
-  var colour = document.getElementById("course1background").value;
-  document.getElementsByClassName("mechanics").style.backgroundColor = colour;
 }
 
 function displayCourseComputerScience(){
@@ -52,11 +49,14 @@ function displayCourseComputerScience(){
 function displayCourseEnglish(){
   var checkbox = document.getElementById("course3");
   var text = document.getElementsByClassName("english");
+  var extra = document.getElementsByClassName("extracellenglish");
   if (checkbox.checked == true){
     $(text).show();
+    $(extra).hide();
   }
   else{
     $(text).hide();
+    $(extra).show();
   }
 }
 
