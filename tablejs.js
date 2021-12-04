@@ -10,14 +10,8 @@ function displayCourseMechanics(){
 }
 
 function changeColourMechanics(){
-  var checkbox = document.getElementById("course1");
   var colour = document.getElementById("course1background").value;
-  if (checkbox.checked == true){
-    document.getElementsByTagName("p").style.backgroundColor = colour;
-  }
-  else{
-    $(document.getElementsByTagName("p").style.backgroundColor).hide();
-  }
+  document.getElementsByTagName("TR").style.backgroundColor = colour;
 }
 
 function displayCourseComputerScience(){
