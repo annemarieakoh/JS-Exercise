@@ -12,7 +12,7 @@ function displayCourseMechanics(){
 function changeColourMechanics(){
   var checkbox = document.getElementById("course1");
   var tableDataBackground = document.getElementsByClassName("mechanicsdata").style.backgroundColor;
-  let colour = "#369A65" /*document.getElementById("course1background").value;*/
+  var colour = document.getElementById("course1background").value;
   tableDataBackground = colour;
   if (checkbox.checked == true){
     $(tableDataBackground).show();
