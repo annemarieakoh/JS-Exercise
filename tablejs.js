@@ -1,3 +1,4 @@
+/*
 function checkWebDev(){
   var checkbox = document.getElementById("course6");
   var text = document.getElementsByClassName("webdev");
@@ -6,7 +7,7 @@ function checkWebDev(){
     $(text).show();
     $(extra).hide();
 }
-
+*/
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
