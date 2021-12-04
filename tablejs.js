@@ -26,8 +26,7 @@ function displayCourseMechanics(){
   }
 }
 function displayColourMechanics(){
-    $('.mechanics').css("background-color", $("#course1background").val());
-  }
+  $('.mechanics').css("background-color", $("#course1background").val());
 }
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
