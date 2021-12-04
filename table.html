@@ -31,9 +31,15 @@
             <label for="course4"> <u>MA121</u> Differential Calculus</label>
             <button type="button" id="choosebutton" onclick="displayColourMaths()">Change Colour</button><br>
             <input type="checkbox" id="course5" onclick="displayCourseFreshmanQuiz()" checked>
-            <label for="course5"> <u>DEAN110</u> Freshman Quiz</label><br>
+            <input type="color" id="course5background" value="#2C1890">
+            <label for="course5background">Choose Background Colour for</label>
+            <label for="course5"> <u>DEAN110</u> Freshman Quiz</label>
+            <button type="button" id="choosebutton" onclick="displayColourFreshmanQuiz()">Change Colour</button><br>
             <input type="checkbox" id="course6" onclick="displayCourseWebDev()" checked>
-            <label for="course6"> <u>CS146</u> Intro to Web Programming & Web Development</label><br><br>
+            <input type="color" id="course6background" value="#FFC800">
+            <label for="course6background">Choose Background Colour for</label>
+            <label for="course6"> <u>CS146</u> Intro to Web Programming & Web Development</label>
+            <button type="button" id="choosebutton" onclick="displayColourWebDev()">Change Colour</button><br><br>
         </form>
         <table>
             <tr>
@@ -103,10 +109,10 @@
             <tr>
                 <td id="time">3pm</td>
                 <td></td>
-                <td class="webdev" rowspan="2">CS 146</td>
+                <td bgcolor="#FFC800" class="webdev" rowspan="2">CS 146</td>
                 <td class="extracellwebdev"></td>
                 <td></td>
-                <td class="webdev" rowspan="2">CS 146</td>
+                <td bgcolor="#FFC800" class="webdev" rowspan="2">CS 146</td>
                 <td class="extracellwebdev"></td>
                 <td></td>
             </tr>
@@ -120,10 +126,10 @@
             </tr>
             <tr>
                 <td id="time">5pm</td>
-                <td class="freshmanquiz">DEAN 110<td class="extracellfreshmanquiz"></td></td>
+                <td bgcolor="#2C1890" class="freshmanquiz">DEAN 110<td class="extracellfreshmanquiz"></td></td>
                 <td></td>
                 <td></td>
-                <td class="freshmanquiz">DEAN 110<td class="extracellfreshmanquiz"></td></td>
+                <td bgcolor="#2C1890" class="freshmanquiz">DEAN 110<td class="extracellfreshmanquiz"></td></td>
                 <td></td>
             </tr>
             <tr>
