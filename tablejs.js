@@ -26,7 +26,7 @@ function displayCourseMechanics(){
   }
 }
 function displayColourMechanics(){
-  var backgrounds = document.getElementsByClassName("mechanics");
+  var backgrounds = document.getElementsByTagName("td");
   var colour = document.getElementById("course1background").value;
   backgrounds.setAttribute("bgcolor","colour");
 }
