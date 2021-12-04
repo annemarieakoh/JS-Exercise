@@ -1,6 +1,7 @@
 table{
   width: 800px;
   border:1px solid black;
+  border-color: #BFBABA;
 }
 th, td, tr {
   border:1px solid black;
