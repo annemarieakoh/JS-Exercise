@@ -5,7 +5,7 @@ function checkWebDev(){
   var checkbox = document.getElementById("course6");
   var text = document.getElementsByClassName("webdev");
   var extra = document.getElementsByClassName("extracellwebdev");
-  let checkbox.checked == true
+  let checkbox.checked == true;
   if (checkbox.checked == true){
     $(text).show();
     $(extra).hide();
