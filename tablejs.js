@@ -9,8 +9,10 @@ function checkWebDev(){
 }
 */
 function hideAllExtra(){
-  var extra = document.getElementsByClassName("extracellwebdev");
-  $(extra).hide();
+  var extramechanics = document.getElementsByClassName("extracellmechanics");
+  var extrawebdev = document.getElementsByClassName("extracellwebdev");
+  $(extramechanics).hide();
+  $(extrawebdev).hide();
 }
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
