@@ -13,11 +13,13 @@ function hideAllExtra(){
   var extracomputerscience = document.getElementsByClassName("extracellcomputerscience");
   var extraenglish = document.getElementsByClassName("extracellenglish");
   var extramaths = document.getElementsByClassName("extracellmaths");
+  var extrafreshmanquiz = document.getElementsByClassName("extracellfreshmanquiz");
   var extrawebdev = document.getElementsByClassName("extracellwebdev");
   $(extramechanics).hide();
   $(extracomputerscience).hide();
   $(extraenglish).hide();
   $(extramaths).hide();
+  $(extrafreshmanquiz).hide();
   $(extrawebdev).hide();
 }
 function displayCourseMechanics(){
@@ -79,11 +81,14 @@ function displayCourseMaths(){
 function displayCourseFreshmanQuiz(){
   var checkbox = document.getElementById("course5");
   var text = document.getElementsByClassName("freshmanquiz");
+  var extra = document.getElementsByClassName("extracellfreshmanquiz");
   if (checkbox.checked == true){
     $(text).show();
+    $(extra).hide();
   }
   else{
     $(text).hide();
+    $(extra).show();
   }
 }
 
