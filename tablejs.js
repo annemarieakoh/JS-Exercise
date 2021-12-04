@@ -1,11 +1,14 @@
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
+  var extra = document.getElementsByClassName("extracell")'
   if (checkbox.checked == true){
     $(text).show();
+    $(extra).hide();
   }
   else{
     $(text).hide();
+    $(extra).show();
   }
 }
 
