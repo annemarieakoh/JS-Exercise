@@ -1,5 +1,5 @@
-function checkAll(type){
-  type.checked == true
+function checkAll(){
+  document.getElementById("course6").checked == true;
 }
 
 function displayCourseMechanics(){
