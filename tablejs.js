@@ -1,6 +1,3 @@
-function checkCourseSix(){
-  document.getElementById("course6").onload = function(){checkWebDev()};
-}
 function checkWebDev(){
   var checkbox = document.getElementById("course6");
   var text = document.getElementsByClassName("webdev");
@@ -15,6 +12,7 @@ function checkWebDev(){
     $(extra).show();
   }
 }
+
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
