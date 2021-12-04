@@ -1,7 +1,7 @@
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
-  var extra = document.getElementsByClassName("extracell");
+  var extra = document.getElementsByClassName("extracellmechanics");
   if (checkbox.checked == true){
     $(text).show(); 
     $(extra).hide();
@@ -20,7 +20,7 @@ function changeColourMechanics(){
 function displayCourseComputerScience(){
   var checkbox = document.getElementById("course2");
   var text = document.getElementsByClassName("computerscience");
-  var extra = document.getElementsByClassName("extracell");
+  var extra = document.getElementsByClassName("extracellcomputerscience");
   if (checkbox.checked == true){
     $(text).show();
     $(extra).hide();
