@@ -1,7 +1,20 @@
-function checkAll(){
-  document.onload.getElementById("course6").checked == true;
+function checkCourseSix(){
+  document.getElementById("course6").onload = function(){checkWebDev()};
 }
-
+function checkWebDev(){
+  var checkbox = document.getElementById("course6");
+  var text = document.getElementsByClassName("webdev");
+  var extra = document.getElementsByClassName("extracellwebdev");
+  let checkbox.checked == true
+  if (checkbox.checked == true){
+    $(text).show();
+    $(extra).hide();
+  }
+  else{
+    $(text).hide();
+    $(extra).show();
+  }
+}
 function displayCourseMechanics(){
   var checkbox = document.getElementById("course1");
   var text = document.getElementsByClassName("mechanics");
